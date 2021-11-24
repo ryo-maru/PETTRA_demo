@@ -1,0 +1,20 @@
+// Place all the styles related to the customers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.btn--kensaku,
+a.btn--kensaku {
+  color: #black;
+  background-color:#FFFFFF ;
+  border: 1px solid #000;
+  width: 200px;
+  height: 30px;
+}
+
+.btn--kensaku2,
+a.btn--kensaku2 {
+  color:#FFFFFF ;
+  background-color:#808080 ;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}

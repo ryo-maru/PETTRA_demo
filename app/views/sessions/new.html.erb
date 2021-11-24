@@ -1,0 +1,16 @@
+<div class="name text-center">
+<%= image_tag 'image.png', class: "tops_field" %>
+<%= form_with(scope: :session, url: sessions_path, local: true) do |f| %>
+  <%= f.label :メールアドレス %>
+  <%= f.email_field :email,class: "login_form" %>
+  <br>
+  <%= f.label :パスワード %>
+  <%= f.password_field :password,class: "login_form" %>
+  <br>
+  <br>
+  <%= f.submit "ログイン", class: "login" %>
+  <br>
+  <br>
+  　　　　　　　　　　　　　　　　<%=link_to 'ログインできない場合はこちら'%>
+<% end %>
+<div>

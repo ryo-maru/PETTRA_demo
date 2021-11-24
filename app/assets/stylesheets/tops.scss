@@ -1,0 +1,33 @@
+// Place all the styles related to the tops controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.tops_field{
+  width: 150px;
+}
+
+.logo_field{
+  width: 40px;
+}
+
+.btn--pink,
+a.btn--pink {
+  color: #black;
+  background-color: #FFD5EC;
+  width: 150px;
+  margin: auto;
+}
+
+.btn--blue,
+a.btn--blue {
+  color: #black;
+  background-color: #BAD3FF;
+  width: 150px;
+  margin: auto;
+}
+
+.btn--red,
+a.btn--red {
+  color: #FFFFFF;
+  background-color: #FF3366;
+  width: 200px;
+}
