@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   resources :tops
   resources :customers
   resources :users
+  resources :medicines
   resources :sessions, only: [:new, :create, :destroy]
 end
