@@ -1,6 +1,6 @@
 <div>
   <span><%= image_tag 'image.png', class: "tops_field" %></span>
-  <span><%= link_to "顧客情報"  %></span>
+  <span><%= link_to "顧客情報", customers_path  %></span>
   　　
   <span><%= link_to "予約情報"  %></span>
   　　
@@ -15,8 +15,8 @@
 <table>
 <tr>
   <td> <%= image_tag 'veterinarian.png', class: "logo_field" %></td>
-  <td> 顧客情報 </td>
-  <td>　　<a href="" class="btn btn--pink">顧客情報<br><%= image_tag 'veterinarian.png', class: "logo_field" %></a></td>
+  <td> <%=link_to "顧客情報", customers_path %> </td>
+  <td>　　<a href="customers" class="btn btn--pink">顧客情報<br><%= image_tag 'veterinarian.png', class: "logo_field" %></a></td>
   <td>　<a href="" class="btn btn--blue">予約情報<br><%= image_tag 'veterinary2.png', class: "logo_field" %></a></td>
 </tr>
 <tr>
@@ -35,8 +35,8 @@
 </tr>
 <tr>
   <td> <%= image_tag 'medicine.png', class: "logo_field" %></td>
-  <td> 薬剤管理 </td>
-  <td>　　<a href="" class="btn btn--pink">薬剤管理<br><%= image_tag 'medicine.png', class: "logo_field" %></a></td>
+  <td> <%=link_to "薬剤管理", medicines_path %> </td>
+  <td>　　<a href="medicines" class="btn btn--pink">薬剤管理<br><%= image_tag 'medicine.png', class: "logo_field" %></a></td>
   <td>　<a href="" class="btn btn--blue">会計情報<br><%= image_tag 'veterinarian (1).png', class: "logo_field" %></a></td>
 </tr>
 <tr>
